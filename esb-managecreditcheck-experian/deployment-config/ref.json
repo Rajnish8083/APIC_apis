@@ -1,1 +1,9 @@
-
+{
+  "v1validatetoken": "/sgwtv/v1/validate/token",
+  "Experian-URL": "https://tfo.uat.pcomanagedservice.com:8443/ConnectivityService",
+  "CDO-URL": "https://int.api.vmo2digital.co.uk/pc/credit-check",
+  "dapi-appid": "V5vPhkFlZQpFWpJe5s6MSgJcF0g8kW4KeOzcIGPV86Eqzv5L",
+  "dapi-clientsecret": "DgxpAT3wphe6awvnGuA1d4LbuQ6bTlCgXNVVGYVDEceQIZREIGUKYpqXGDuxLRtJ",
+  "dapi-channelid": "WEB",
+  "content-type": "application/xml"
+}
