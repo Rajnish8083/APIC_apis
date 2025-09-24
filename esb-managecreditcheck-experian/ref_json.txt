@@ -680,17 +680,19 @@ var basicAuthConfig = {
 	"cancel.oem.proof": {
         "email": {
              "additional_info": {
-            "campaign_id": "N/A",
+            "campaign_id": "d4538e27-3886-45c0-b246-b3715fc0bf72",
             "RedirectDate": "26112024",
             "priority": 2,
             "from_email_address": "N/A",
             "message_variation_id": {
-                "email": "N/A"
+                "email": "email-4730"
             },
 		"paym_type": "campaign_id",
-		"paym_braze_id": "N/A",
+		"paym_braze_id": "d4538e27-3886-45c0-b246-b3715fc0bf72",
 		"payg_type": "journey_code",
-		"generic_type": "journey_code",
+		"payg_braze_id": "N/A",
+		"generic_type": "campaign_id",
+		"generic_braze_id": "d4538e27-3886-45c0-b246-b3715fc0bf72",
 		"broadband_type": "journey_code",
 		"broadband_braze_id": "N/A"
         }
@@ -1184,17 +1186,19 @@ var basicAuthConfig = {
 	"provide.oem.proof": {
         "email": {
              "additional_info": {
-            "campaign_id": "N/A",
+            "campaign_id": "321ed275-bbf8-4ef3-8778-bcc591e105b4",
             "RedirectDate": "26112024",
             "priority": 2,
             "from_email_address": "N/A",
             "message_variation_id": {
-                "email": "N/A"
+                "email": "email-5488"
             },
 		"paym_type": "campaign_id",
-		"paym_braze_id": "N/A",
+		"paym_braze_id": "321ed275-bbf8-4ef3-8778-bcc591e105b4",
 		"payg_type": "journey_code",
-		"generic_type": "journey_code",
+		"payg_braze_id": "N/A",
+		"generic_type": "campaign_id",
+		"generic_braze_id": "321ed275-bbf8-4ef3-8778-bcc591e105b4",
 		"broadband_type": "journey_code",
 		"broadband_braze_id": "N/A"
         }
@@ -1263,65 +1267,122 @@ var basicAuthConfig = {
 	"rpr.beroowclose": {
         "email": {
              "additional_info": {
-            "campaign_id": "N/A",
+            "campaign_id": "a5381b9c-bbb6-4225-91c9-b8090d734e67",
             "RedirectDate": "26112024",
             "priority": 2,
-            "from_email_address": "N/A",
+            "from_email_address": "notification@account.o2.com",
             "message_variation_id": {
-                "email": "N/A"
+                "email": "email-3839"
             },
 		"paym_type": "campaign_id",
-		"paym_braze_id": "N/A",
+		"paym_braze_id": "a5381b9c-bbb6-4225-91c9-b8090d734e67",
 		"payg_type": "journey_code",
-		"payg_braze_id": "prop.abuse",
-		"generic_type": "journey_code",
+		"payg_braze_id": "N/A",
+		"generic_type": "campaign_id",
+		"generic_braze_id": "a5381b9c-bbb6-4225-91c9-b8090d734e67",
 		"broadband_type": "journey_code",
 		"broadband_braze_id": "N/A"
         }
         },
-        "sms": {}
+        "sms": {
+             "additional_info": {
+            "campaign_id": "a5381b9c-bbb6-4225-91c9-b8090d734e67",
+            "RedirectDate": "26112024",
+            "priority": 2,
+			"subscription_group_id": "1ed9f853-c3d2-4d4c-ae2c-2b1c49d66856",
+            "message_variation_id": {
+                "sms": "sms-3845"
+            },
+		"paym_type": "campaign_id",
+		"paym_braze_id": "a5381b9c-bbb6-4225-91c9-b8090d734e67",
+		"payg_type": "journey_code",
+		"payg_braze_id": "N/A",
+		"generic_type": "campaign_id",
+		"generic_braze_id": "a5381b9c-bbb6-4225-91c9-b8090d734e67",
+		"broadband_type": "journey_code",
+		"broadband_braze_id": "N/A"
+        }
+        }
     },
 	"rpr.devicebagmsmtchclose": {
         "email": {
              "additional_info": {
-            "campaign_id": "N/A",
+            "campaign_id": "859678b4-afc3-44b1-9d40-6e7219701c24",
             "RedirectDate": "26112024",
             "priority": 2,
-            "from_email_address": "N/A",
+            "from_email_address": "notification@account.o2.com",
             "message_variation_id": {
-                "email": "N/A"
+                "email": "email-3448"
             },
 		"paym_type": "campaign_id",
-		"paym_braze_id": "N/A",
+		"paym_braze_id": "859678b4-afc3-44b1-9d40-6e7219701c24",
 		"payg_type": "journey_code",
-		"payg_braze_id": "prop.abuse",
-		"generic_type": "journey_code",
+		"payg_braze_id": "N/A",
+		"generic_type": "campaign_id",
+		"generic_braze_id": "859678b4-afc3-44b1-9d40-6e7219701c24",
 		"broadband_type": "journey_code",
 		"broadband_braze_id": "N/A"
         }
         },
-        "sms": {}
+        "sms": {
+             "additional_info": {
+            "campaign_id": "859678b4-afc3-44b1-9d40-6e7219701c24",
+            "RedirectDate": "26112024",
+            "priority": 2,
+			"subscription_group_id": "1ed9f853-c3d2-4d4c-ae2c-2b1c49d66856",
+            "message_variation_id": {
+                "sms": "sms-3454"
+            },
+		"paym_type": "campaign_id",
+		"paym_braze_id": "859678b4-afc3-44b1-9d40-6e7219701c24",
+		"payg_type": "journey_code",
+		"payg_braze_id": "N/A",
+		"generic_type": "campaign_id",
+		"generic_braze_id": "859678b4-afc3-44b1-9d40-6e7219701c24",
+		"broadband_type": "journey_code",
+		"broadband_braze_id": "N/A"
+        }
+        }
     },
 	"rpr.nffclose": {
         "email": {
              "additional_info": {
-            "campaign_id": "N/A",
+            "campaign_id": "a88d0304-e192-4acd-b13a-0b8ca0272018",
             "RedirectDate": "26112024",
             "priority": 2,
-            "from_email_address": "N/A",
+            "from_email_address": "notification@account.o2.com",
             "message_variation_id": {
-                "email": "N/A"
+                "email": "email-5375"
             },
 		"paym_type": "campaign_id",
-		"paym_braze_id": "N/A",
+		"paym_braze_id": "a88d0304-e192-4acd-b13a-0b8ca0272018",
 		"payg_type": "journey_code",
-		"payg_braze_id": "prop.abuse",
-		"generic_type": "journey_code",
+		"payg_braze_id": "N/A",
+		"generic_type": "campaign_id",
+		"generic_braze_id": "a88d0304-e192-4acd-b13a-0b8ca0272018",
 		"broadband_type": "journey_code",
 		"broadband_braze_id": "N/A"
         }
         },
-        "sms": {}
+        "sms": {
+             "additional_info": {
+            "campaign_id": "a88d0304-e192-4acd-b13a-0b8ca0272018",
+            "RedirectDate": "26112024",
+            "priority": 2,
+			"subscription_group_id": "1ed9f853-c3d2-4d4c-ae2c-2b1c49d66856",
+            "message_variation_id": {
+                "sms": "sms-5381"
+            },
+		"paym_type": "campaign_id",
+		"paym_braze_id": "a88d0304-e192-4acd-b13a-0b8ca0272018",
+		"payg_type": "journey_code",
+		"payg_braze_id": "N/A",
+		"generic_type": "campaign_id",
+		"generic_braze_id": "a88d0304-e192-4acd-b13a-0b8ca0272018",
+		"broadband_type": "journey_code",
+		"broadband_braze_id": "N/A"
+        }
+        }
     },
 	"RRI_001": {
         "email": {
@@ -2513,34 +2574,38 @@ var basicAuthConfig = {
 	"FF_Return_001": {
         "email": {
              "additional_info": {
-            "campaign_id": "N/A",
+            "campaign_id": "f73c7d11-370a-4609-a8a4-2f192baaa3ae",
             "RedirectDate": "06122024",
             "priority": 2,
-            "from_email_address": "N/A",
+            "from_email_address": "notification@account.o2.com",
             "message_variation_id": {
-                "email": "N/A"
+                "email": "email-8852"
             },
 		"paym_type": "campaign_id",
-		"paym_braze_id": "N/A",
+		"paym_braze_id": "f73c7d11-370a-4609-a8a4-2f192baaa3ae",
 		"payg_type": "journey_code",
-		"generic_type": "journey_code",
+		"payg_braze_id": "N/A",
+		"generic_type": "campaign_id",
+		"generic_braze_id": "f73c7d11-370a-4609-a8a4-2f192baaa3ae",
 		"broadband_type": "journey_code",
 		"broadband_braze_id": "N/A"
         }
         },
         "sms": {
              "additional_info": {
-            "campaign_id": "N/A",
+            "campaign_id": "f73c7d11-370a-4609-a8a4-2f192baaa3ae",
             "RedirectDate": "06122024",
             "priority": 2,
-			"subscription_group_id": "N/A",
+			"subscription_group_id": "1ed9f853-c3d2-4d4c-ae2c-2b1c49d66856",
             "message_variation_id": {
-                "sms": "N/A"
+                "sms": "sms-8858"
             },
 		"paym_type": "campaign_id",
-		"paym_braze_id": "N/A",
+		"paym_braze_id": "f73c7d11-370a-4609-a8a4-2f192baaa3ae",
 		"payg_type": "journey_code",
-		"generic_type": "journey_code",
+		"payg_braze_id": "N/A",
+		"generic_type": "campaign_id",
+		"generic_braze_id": "f73c7d11-370a-4609-a8a4-2f192baaa3ae",
 		"broadband_type": "journey_code",
 		"broadband_braze_id": "N/A"
         }
@@ -3016,22 +3081,42 @@ var basicAuthConfig = {
 	"RETURN_ORD_SBMT": {
         "email": {
 		        "additional_info": {
-                "campaign_id": "N/A",
+                "campaign_id": "642b9d62-d321-411d-81b1-675502271fa7",
                 "RedirectDate": "06122024",
                 "priority": 1,
-                "from_email_address": "N/A",
+                "from_email_address": "notification@account.o2.com",
                 "message_variation_id": {
-                   "email": "N/A"
+                   "email": "email-8447"
             },
 		"paym_type": "campaign_id",
-		"paym_braze_id": "N/A",
+		"paym_braze_id": "642b9d62-d321-411d-81b1-675502271fa7",
 		"payg_type": "journey_code",
-		"generic_type": "journey_code",
+		"payg_braze_id": "N/A",
+		"generic_type": "campaign_id",
+		"generic_braze_id": "642b9d62-d321-411d-81b1-675502271fa7",
 		"broadband_type": "journey_code",
 		"broadband_braze_id": "N/A"
         }
 		},
-        "sms": {}
+        "sms": {
+             "additional_info": {
+            "campaign_id": "642b9d62-d321-411d-81b1-675502271fa7",
+            "RedirectDate": "06122024",
+            "priority": 1,
+			"subscription_group_id": "1ed9f853-c3d2-4d4c-ae2c-2b1c49d66856",
+            "message_variation_id": {
+                "sms": "sms-8453"
+            },
+		"paym_type": "campaign_id",
+		"paym_braze_id": "642b9d62-d321-411d-81b1-675502271fa7",
+		"payg_type": "journey_code",
+		"payg_braze_id": "N/A",
+		"generic_type": "campaign_id",
+		"generic_braze_id": "642b9d62-d321-411d-81b1-675502271fa7",
+		"broadband_type": "journey_code",
+		"broadband_braze_id": "N/A"
+        }
+        }
     },
 	"risk.notf.email": {
         "email": {
@@ -3057,81 +3142,139 @@ var basicAuthConfig = {
 	"rpr.applegsx": {
         "email": {
 		        "additional_info": {
-                "campaign_id": "N/A",
+                "campaign_id": "8135109f-d15d-432f-b007-12821745653b",
                 "RedirectDate": "06122024",
                 "priority": 2,
-                "from_email_address": "N/A",
+                "from_email_address": "notification@account.o2.com",
                 "message_variation_id": {
-                   "email": "N/A"
+                   "email": "email-1158"
             },
 		"paym_type": "campaign_id",
-		"paym_braze_id": "N/A",
+		"paym_braze_id": "8135109f-d15d-432f-b007-12821745653b",
 		"payg_type": "journey_code",
-		"generic_type": "journey_code",
-		"generic_braze_id": "N/A",
+		"payg_braze_id": "N/A",
+		"generic_type": "campaign_id",
+		"generic_braze_id": "8135109f-d15d-432f-b007-12821745653b",
 		"broadband_type": "journey_code",
 		"broadband_braze_id": "N/A"
         }
 		},
-        "sms": {}
+        "sms": {
+             "additional_info": {
+            "campaign_id": "8135109f-d15d-432f-b007-12821745653b",
+            "RedirectDate": "06122024",
+            "priority": 2,
+			"subscription_group_id": "1ed9f853-c3d2-4d4c-ae2c-2b1c49d66856",
+            "message_variation_id": {
+                "sms": "sms-1164"
+            },
+		"paym_type": "campaign_id",
+		"paym_braze_id": "8135109f-d15d-432f-b007-12821745653b",
+		"payg_type": "journey_code",
+		"payg_braze_id": "N/A",
+		"generic_type": "campaign_id",
+		"generic_braze_id": "8135109f-d15d-432f-b007-12821745653b",
+		"broadband_type": "journey_code",
+		"broadband_braze_id": "N/A"
+        }
+        }
     },
 	"rpr.create": {
         "email": {
 		        "additional_info": {
-                "campaign_id": "N/A",
+                "campaign_id": "845e0825-a0f8-495f-b10b-51b87077d72a",
                 "RedirectDate": "06122024",
                 "priority": 1,
-                "from_email_address": "N/A",
+                "from_email_address": "notification@account.o2.com",
                 "message_variation_id": {
-                   "email": "N/A"
+                   "email": "email-6143"
             },
 		"paym_type": "campaign_id",
-		"paym_braze_id": "N/A",
+		"paym_braze_id": "845e0825-a0f8-495f-b10b-51b87077d72a",
 		"payg_type": "journey_code",
-		"generic_type": "journey_code",
-		"generic_braze_id": "N/A",
+		"payg_braze_id": "N/A",
+		"generic_type": "campaign_id",
+		"generic_braze_id": "845e0825-a0f8-495f-b10b-51b87077d72a",
 		"broadband_type": "journey_code",
 		"broadband_braze_id": "N/A"
         }
 		},
-        "sms": {}
+        "sms": {
+             "additional_info": {
+            "campaign_id": "845e0825-a0f8-495f-b10b-51b87077d72a",
+            "RedirectDate": "06122024",
+            "priority": 1,
+			"subscription_group_id": "1ed9f853-c3d2-4d4c-ae2c-2b1c49d66856",
+            "message_variation_id": {
+                "sms": "sms-6149"
+            },
+		"paym_type": "campaign_id",
+		"paym_braze_id": "845e0825-a0f8-495f-b10b-51b87077d72a",
+		"payg_type": "journey_code",
+		"payg_braze_id": "N/A",
+		"generic_type": "campaign_id",
+		"generic_braze_id": "845e0825-a0f8-495f-b10b-51b87077d72a",
+		"broadband_type": "journey_code",
+		"broadband_braze_id": "N/A"
+        }
+        }
     },
 	"rpr.exchgclose": {
         "email": {
 		        "additional_info": {
-                "campaign_id": "N/A",
+                "campaign_id": "3673a37c-9f77-475b-8669-2a18da861b76",
                 "RedirectDate": "06122024",
                 "priority": 2,
-                "from_email_address": "N/A",
+                "from_email_address": "notification@account.o2.com",
                 "message_variation_id": {
-                   "email": "N/A"
+                   "email": "email-6911"
             },
 		"paym_type": "campaign_id",
-		"paym_braze_id": "N/A",
+		"paym_braze_id": "3673a37c-9f77-475b-8669-2a18da861b76",
 		"payg_type": "journey_code",
-		"generic_type": "journey_code",
-		"generic_braze_id": "N/A",
+		"payg_braze_id": "N/A",
+		"generic_type": "campaign_id",
+		"generic_braze_id": "3673a37c-9f77-475b-8669-2a18da861b76",
 		"broadband_type": "journey_code",
 		"broadband_braze_id": "N/A"
         }
 		},
-        "sms": {}
+        "sms": {
+             "additional_info": {
+            "campaign_id": "3673a37c-9f77-475b-8669-2a18da861b76",
+            "RedirectDate": "06122024",
+            "priority": 2,
+			"subscription_group_id": "1ed9f853-c3d2-4d4c-ae2c-2b1c49d66856",
+            "message_variation_id": {
+                "sms": "sms-6917"
+            },
+		"paym_type": "campaign_id",
+		"paym_braze_id": "3673a37c-9f77-475b-8669-2a18da861b76",
+		"payg_type": "journey_code",
+		"payg_braze_id": "N/A",
+		"generic_type": "campaign_id",
+		"generic_braze_id": "3673a37c-9f77-475b-8669-2a18da861b76",
+		"broadband_type": "journey_code",
+		"broadband_braze_id": "N/A"
+        }
+        }
     },
 	"rpr.lockedclose": {
         "email": {
 		        "additional_info": {
-                "campaign_id": "N/A",
+                "campaign_id": "8b8a91ab-797f-4ef5-a787-c9a1ea3da56e",
                 "RedirectDate": "06122024",
                 "priority": 2,
                 "from_email_address": "N/A",
                 "message_variation_id": {
-                   "email": "N/A"
+                   "email": "email-404"
             },
 		"paym_type": "campaign_id",
-		"paym_braze_id": "N/A",
+		"paym_braze_id": "8b8a91ab-797f-4ef5-a787-c9a1ea3da56e",
 		"payg_type": "journey_code",
-		"generic_type": "journey_code",
-		"generic_braze_id": "N/A",
+		"payg_braze_id": "N/A",
+		"generic_type": "campaign_id",
+		"generic_braze_id": "8b8a91ab-797f-4ef5-a787-c9a1ea3da56e",
 		"broadband_type": "journey_code",
 		"broadband_braze_id": "N/A"
         }
@@ -3141,39 +3284,59 @@ var basicAuthConfig = {
 	"rpr.payment": {
         "email": {
 		        "additional_info": {
-                "campaign_id": "N/A",
+                "campaign_id": "1169e620-8461-4a1f-87db-32512ea3ed3c",
                 "RedirectDate": "06122024",
                 "priority": 2,
-                "from_email_address": "N/A",
+                "from_email_address": "notification@account.o2.com",
                 "message_variation_id": {
-                   "email": "N/A"
+                   "email": "email-2680"
             },
 		"paym_type": "campaign_id",
-		"paym_braze_id": "N/A",
+		"paym_braze_id": "1169e620-8461-4a1f-87db-32512ea3ed3c",
 		"payg_type": "journey_code",
-		"generic_type": "journey_code",
-		"generic_braze_id": "N/A",
+		"payg_braze_id": "N/A",
+		"generic_type": "campaign_id",
+		"generic_braze_id": "1169e620-8461-4a1f-87db-32512ea3ed3c",
 		"broadband_type": "journey_code",
 		"broadband_braze_id": "N/A"
         }
 		},
-        "sms": {}
+        "sms": {
+             "additional_info": {
+            "campaign_id": "1169e620-8461-4a1f-87db-32512ea3ed3c",
+            "RedirectDate": "06122024",
+            "priority": 2,
+			"subscription_group_id": "1ed9f853-c3d2-4d4c-ae2c-2b1c49d66856",
+            "message_variation_id": {
+                "sms": "sms-2686"
+            },
+		"paym_type": "campaign_id",
+		"paym_braze_id": "1169e620-8461-4a1f-87db-32512ea3ed3c",
+		"payg_type": "journey_code",
+		"payg_braze_id": "N/A",
+		"generic_type": "campaign_id",
+		"generic_braze_id": "1169e620-8461-4a1f-87db-32512ea3ed3c",
+		"broadband_type": "journey_code",
+		"broadband_braze_id": "N/A"
+        }
+        }
     },
 	"rpr.paymentreminder": {
         "email": {
 		        "additional_info": {
-                "campaign_id": "N/A",
+                "campaign_id": "4ea7cf6e-0e81-4a82-8844-0ee367e69c6d",
                 "RedirectDate": "06122024",
                 "priority": 2,
                 "from_email_address": "N/A",
                 "message_variation_id": {
-                   "email": "N/A"
+                   "email": "email-1535"
             },
 		"paym_type": "campaign_id",
-		"paym_braze_id": "N/A",
+		"paym_braze_id": "4ea7cf6e-0e81-4a82-8844-0ee367e69c6d",
 		"payg_type": "journey_code",
-		"generic_type": "journey_code",
-		"generic_braze_id": "N/A",
+		"payg_braze_id": "N/A",
+		"generic_type": "campaign_id",
+		"generic_braze_id": "4ea7cf6e-0e81-4a82-8844-0ee367e69c6d",
 		"broadband_type": "journey_code",
 		"broadband_braze_id": "N/A"
         }
@@ -3183,18 +3346,19 @@ var basicAuthConfig = {
 	"rpr.paymentreminder3days": {
         "email": {
 		        "additional_info": {
-                "campaign_id": "N/A",
+                "campaign_id": "ab554f81-1577-4596-b783-6bc3e58d9fb7",
                 "RedirectDate": "06122024",
                 "priority": 2,
                 "from_email_address": "N/A",
                 "message_variation_id": {
-                   "email": "N/A"
+                   "email": "email-2666"
             },
 		"paym_type": "campaign_id",
-		"paym_braze_id": "N/A",
+		"paym_braze_id": "ab554f81-1577-4596-b783-6bc3e58d9fb7",
 		"payg_type": "journey_code",
-		"generic_type": "journey_code",
-		"generic_braze_id": "N/A",
+		"payg_braze_id": "N/A",
+		"generic_type": "campaign_id",
+		"generic_braze_id": "ab554f81-1577-4596-b783-6bc3e58d9fb7",
 		"broadband_type": "journey_code",
 		"broadband_braze_id": "N/A"
         }
@@ -3204,18 +3368,19 @@ var basicAuthConfig = {
 	"rpr.print.label": {
         "email": {
 		        "additional_info": {
-                "campaign_id": "N/A",
+                "campaign_id": "e4fd3e27-2fde-44c6-81a3-7b567aaf6633",
                 "RedirectDate": "06122024",
                 "priority": 1,
                 "from_email_address": "N/A",
                 "message_variation_id": {
-                   "email": "N/A"
+                   "email": "email-3424"
             },
 		"paym_type": "campaign_id",
-		"paym_braze_id": "N/A",
+		"paym_braze_id": "e4fd3e27-2fde-44c6-81a3-7b567aaf6633",
 		"payg_type": "journey_code",
-		"generic_type": "journey_code",
-		"generic_braze_id": "N/A",
+		"payg_braze_id": "N/A",
+		"generic_type": "campaign_id",
+		"generic_braze_id": "e4fd3e27-2fde-44c6-81a3-7b567aaf6633",
 		"broadband_type": "journey_code",
 		"broadband_braze_id": "N/A"
         }
@@ -3225,39 +3390,59 @@ var basicAuthConfig = {
 	"rpr.quoterejectedclosure": {
        "email": {
 		        "additional_info": {
-                "campaign_id": "N/A",
+                "campaign_id": "ab8e08b3-584f-4560-ab04-f56720462124",
                 "RedirectDate": "06122024",
                 "priority": 2,
-                "from_email_address": "N/A",
+                "from_email_address": "notification@account.o2.com",
                 "message_variation_id": {
-                   "email": "N/A"
+                   "email": "email-7679"
             },
 		"paym_type": "campaign_id",
-		"paym_braze_id": "N/A",
+		"paym_braze_id": "ab8e08b3-584f-4560-ab04-f56720462124",
 		"payg_type": "journey_code",
-		"generic_type": "journey_code",
-		"generic_braze_id": "N/A",
+		"payg_braze_id": "N/A",
+		"generic_type": "campaign_id",
+		"generic_braze_id": "ab8e08b3-584f-4560-ab04-f56720462124",
 		"broadband_type": "journey_code",
 		"broadband_braze_id": "N/A"
         }
 		},
-        "sms": {}
+        "sms": {
+             "additional_info": {
+            "campaign_id": "ab8e08b3-584f-4560-ab04-f56720462124",
+            "RedirectDate": "06122024",
+            "priority": 2,
+			"subscription_group_id": "1ed9f853-c3d2-4d4c-ae2c-2b1c49d66856",
+            "message_variation_id": {
+                "sms": "sms-7685"
+            },
+		"paym_type": "campaign_id",
+		"paym_braze_id": "ab8e08b3-584f-4560-ab04-f56720462124",
+		"payg_type": "journey_code",
+		"payg_braze_id": "N/A",
+		"generic_type": "campaign_id",
+		"generic_braze_id": "ab8e08b3-584f-4560-ab04-f56720462124",
+		"broadband_type": "journey_code",
+		"broadband_braze_id": "N/A"
+        }
+        }
     },
 	"rpr.rccancel": {
        "email": {
 		        "additional_info": {
-                "campaign_id": "N/A",
+                "campaign_id": "7c764902-e4eb-4755-bd8a-c7ef5890a09e",
                 "RedirectDate": "06122024",
                 "priority": 2,
                 "from_email_address": "N/A",
                 "message_variation_id": {
-                   "email": "N/A"
+                   "email": "email-3972"
             },
 		"paym_type": "campaign_id",
-		"paym_braze_id": "N/A",
+		"paym_braze_id": "7c764902-e4eb-4755-bd8a-c7ef5890a09e",
 		"payg_type": "journey_code",
-		"generic_type": "journey_code",
-		"generic_braze_id": "N/A",
+		"payg_braze_id": "N/A",
+		"generic_type": "campaign_id",
+		"generic_braze_id": "7c764902-e4eb-4755-bd8a-c7ef5890a09e",
 		"broadband_type": "journey_code",
 		"broadband_braze_id": "N/A"
         }
@@ -3267,23 +3452,82 @@ var basicAuthConfig = {
 	"rpr.ripclose": {
         "email": {
 		        "additional_info": {
-                "campaign_id": "N/A",
+                "campaign_id": "25621a82-2bac-4540-b5b1-e465f7e1119c",
                 "RedirectDate": "06122024",
                 "priority": 2,
-                "from_email_address": "N/A",
+                "from_email_address": "notification@account.o2.com",
                 "message_variation_id": {
-                   "email": "N/A"
+                   "email": "email-4607"
             },
 		"paym_type": "campaign_id",
-		"paym_braze_id": "N/A",
+		"paym_braze_id": "25621a82-2bac-4540-b5b1-e465f7e1119c",
 		"payg_type": "journey_code",
-		"generic_type": "journey_code",
-		"generic_braze_id": "N/A",
+		"payg_braze_id": "N/A",
+		"generic_type": "campaign_id",
+		"generic_braze_id": "25621a82-2bac-4540-b5b1-e465f7e1119c",
 		"broadband_type": "journey_code",
 		"broadband_braze_id": "N/A"
         }
 		},
-        "sms": {}
+        "sms": {
+             "additional_info": {
+            "campaign_id": "25621a82-2bac-4540-b5b1-e465f7e1119c",
+            "RedirectDate": "06122024",
+            "priority": 2,
+			"subscription_group_id": "1ed9f853-c3d2-4d4c-ae2c-2b1c49d66856",
+            "message_variation_id": {
+                "sms": "sms-4613"
+            },
+		"paym_type": "campaign_id",
+		"paym_braze_id": "25621a82-2bac-4540-b5b1-e465f7e1119c",
+		"payg_type": "journey_code",
+		"payg_braze_id": "N/A",
+		"generic_type": "campaign_id",
+		"generic_braze_id": "25621a82-2bac-4540-b5b1-e465f7e1119c",
+		"broadband_type": "journey_code",
+		"broadband_braze_id": "N/A"
+        }
+        }
+    },
+	"rpr.rcexchanged": {
+        "email": {
+		        "additional_info": {
+                "campaign_id": "ad8e32e1-d501-4660-a0da-a65e9342d832",
+                "RedirectDate": "19082025",
+                "priority": 1,
+                "from_email_address": "notification@account.o2.com",
+                "message_variation_id": {
+                   "email": "email-9997"
+            },
+		"paym_type": "campaign_id",
+		"paym_braze_id": "ad8e32e1-d501-4660-a0da-a65e9342d832",
+		"payg_type": "journey_code",
+		"payg_braze_id": "N/A",
+		"generic_type": "campaign_id",
+		"generic_braze_id": "ad8e32e1-d501-4660-a0da-a65e9342d832",
+		"broadband_type": "journey_code",
+		"broadband_braze_id": "N/A"
+        }
+		},
+        "sms": {
+             "additional_info": {
+            "campaign_id": "ad8e32e1-d501-4660-a0da-a65e9342d832",
+            "RedirectDate": "19082025",
+            "priority": 1,
+			"subscription_group_id": "1ed9f853-c3d2-4d4c-ae2c-2b1c49d66856",
+            "message_variation_id": {
+                "sms": "sms-10003"
+            },
+		"paym_type": "campaign_id",
+		"paym_braze_id": "ad8e32e1-d501-4660-a0da-a65e9342d832",
+		"payg_type": "journey_code",
+		"payg_braze_id": "N/A",
+		"generic_type": "campaign_id",
+		"generic_braze_id": "ad8e32e1-d501-4660-a0da-a65e9342d832",
+		"broadband_type": "journey_code",
+		"broadband_braze_id": "N/A"
+        }
+        }
     },
 	"shield.status": {
         "email": {
@@ -8457,7 +8701,7 @@ var basicAuthConfig = {
         },
         "sms": {
             "additional_info": {
-            "campaign_id": "trustlyrfnd.sccss",
+            "campaign_id": "N/A",
             "RedirectDate": "01082025",
             "priority": 1,
             "subscription_group_id": "N/A",
@@ -8814,6 +9058,206 @@ var basicAuthConfig = {
 		"generic_braze_id": "fraud.create",
 		"broadband_type": "journey_code",
 		"broadband_braze_id": "fraud.create"
+        }
+        }
+    },
+	"order.summary.handover": {
+        "email": {
+             "additional_info": {
+            "campaign_id": "N/A",
+            "RedirectDate": "10092025",
+            "priority": 1,
+            "from_email_address": "N/A",
+            "message_variation_id": {
+                "email": "N/A"
+            },
+		"paym_type": "N/A",
+		"paym_braze_id": "N/A",
+		"payg_type": "N/A",
+		"payg_braze_id": "N/A",
+		"generic_type": "journey_code",
+		"generic_braze_id": "order.summary.handover",
+		"broadband_type": "journey_code",
+		"broadband_braze_id": "order.summary.handover"
+        }
+        },
+        "sms": {
+            "additional_info": {
+            "campaign_id": "N/A",
+            "RedirectDate": "10092025",
+            "priority": 1,
+            "subscription_group_id": "N/A",
+            "message_variation_id": {
+                "sms": "N/A"
+            },
+		"paym_type": "N/A",
+		"paym_braze_id": "N/A",
+		"payg_type": "N/A",
+		"payg_braze_id": "N/A",
+		"generic_type": "journey_code",
+		"generic_braze_id": "order.summary.handover",
+		"broadband_type": "journey_code",
+		"broadband_braze_id": "order.summary.handover"
+        }
+        }
+    },
+	"order.summary.cncl.source": {
+        "email": {
+             "additional_info": {
+            "campaign_id": "N/A",
+            "RedirectDate": "10092025",
+            "priority": 1,
+            "from_email_address": "N/A",
+            "message_variation_id": {
+                "email": "N/A"
+            },
+		"paym_type": "N/A",
+		"paym_braze_id": "N/A",
+		"payg_type": "N/A",
+		"payg_braze_id": "N/A",
+		"generic_type": "journey_code",
+		"generic_braze_id": "order.summary.cncl.source",
+		"broadband_type": "journey_code",
+		"broadband_braze_id": "order.summary.cncl.source"
+        }
+        },
+        "sms": {
+            "additional_info": {
+            "campaign_id": "N/A",
+            "RedirectDate": "10092025",
+            "priority": 1,
+            "subscription_group_id": "N/A",
+            "message_variation_id": {
+                "sms": "N/A"
+            },
+		"paym_type": "N/A",
+		"paym_braze_id": "N/A",
+		"payg_type": "N/A",
+		"payg_braze_id": "N/A",
+		"generic_type": "journey_code",
+		"generic_braze_id": "order.summary.cncl.source",
+		"broadband_type": "journey_code",
+		"broadband_braze_id": "order.summary.cncl.source"
+        }
+        }
+    },
+	"order.summary.cncl.target": {
+        "email": {
+             "additional_info": {
+            "campaign_id": "N/A",
+            "RedirectDate": "10092025",
+            "priority": 1,
+            "from_email_address": "N/A",
+            "message_variation_id": {
+                "email": "N/A"
+            },
+		"paym_type": "N/A",
+		"paym_braze_id": "N/A",
+		"payg_type": "N/A",
+		"payg_braze_id": "N/A",
+		"generic_type": "journey_code",
+		"generic_braze_id": "order.summary.cncl.target",
+		"broadband_type": "journey_code",
+		"broadband_braze_id": "order.summary.cncl.target"
+        }
+        },
+        "sms": {
+            "additional_info": {
+            "campaign_id": "N/A",
+            "RedirectDate": "10092025",
+            "priority": 1,
+            "subscription_group_id": "N/A",
+            "message_variation_id": {
+                "sms": "N/A"
+            },
+		"paym_type": "N/A",
+		"paym_braze_id": "N/A",
+		"payg_type": "N/A",
+		"payg_braze_id": "N/A",
+		"generic_type": "journey_code",
+		"generic_braze_id": "order.summary.cncl.target",
+		"broadband_type": "journey_code",
+		"broadband_braze_id": "order.summary.cncl.target"
+        }
+        }
+    },
+	"order.summary.amnd.source": {
+        "email": {
+             "additional_info": {
+            "campaign_id": "N/A",
+            "RedirectDate": "10092025",
+            "priority": 1,
+            "from_email_address": "N/A",
+            "message_variation_id": {
+                "email": "N/A"
+            },
+		"paym_type": "N/A",
+		"paym_braze_id": "N/A",
+		"payg_type": "N/A",
+		"payg_braze_id": "N/A",
+		"generic_type": "journey_code",
+		"generic_braze_id": "order.summary.amnd.source",
+		"broadband_type": "journey_code",
+		"broadband_braze_id": "order.summary.amnd.source"
+        }
+        },
+        "sms": {
+            "additional_info": {
+            "campaign_id": "N/A",
+            "RedirectDate": "10092025",
+            "priority": 1,
+            "subscription_group_id": "N/A",
+            "message_variation_id": {
+                "sms": "N/A"
+            },
+		"paym_type": "N/A",
+		"paym_braze_id": "N/A",
+		"payg_type": "N/A",
+		"payg_braze_id": "N/A",
+		"generic_type": "journey_code",
+		"generic_braze_id": "order.summary.amnd.source",
+		"broadband_type": "journey_code",
+		"broadband_braze_id": "order.summary.amnd.source"
+        }
+        }
+    },
+	"order.summary.amnd.target": {
+        "email": {
+             "additional_info": {
+            "campaign_id": "N/A",
+            "RedirectDate": "10092025",
+            "priority": 1,
+            "from_email_address": "N/A",
+            "message_variation_id": {
+                "email": "N/A"
+            },
+		"paym_type": "N/A",
+		"paym_braze_id": "N/A",
+		"payg_type": "N/A",
+		"payg_braze_id": "N/A",
+		"generic_type": "journey_code",
+		"generic_braze_id": "order.summary.amnd.target",
+		"broadband_type": "journey_code",
+		"broadband_braze_id": "order.summary.amnd.target"
+        }
+        },
+        "sms": {
+            "additional_info": {
+            "campaign_id": "N/A",
+            "RedirectDate": "10092025",
+            "priority": 1,
+            "subscription_group_id": "N/A",
+            "message_variation_id": {
+                "sms": "N/A"
+            },
+		"paym_type": "N/A",
+		"paym_braze_id": "N/A",
+		"payg_type": "N/A",
+		"payg_braze_id": "N/A",
+		"generic_type": "journey_code",
+		"generic_braze_id": "order.summary.amnd.target",
+		"broadband_type": "journey_code",
+		"broadband_braze_id": "order.summary.amnd.target"
         }
         }
     },
