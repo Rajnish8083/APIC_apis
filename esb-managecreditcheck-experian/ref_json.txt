@@ -1,7 +1,5 @@
-var apim = require('apim');
-
-var basicAuthConfig = {
-    ".sol.act": {
+{
+    "dbt.sol.act": {
         "email": {
              "additional_info": {
             "campaign_id": "1354f523-d110-2a53-5f06-333a32b16b79",
@@ -9276,6 +9274,5 @@ var basicAuthConfig = {
         }
     }
 
-};
-apim.setvariable('basicauth-properties', basicAuthConfig);
+}
 
